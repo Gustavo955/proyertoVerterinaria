@@ -63,7 +63,7 @@ const Tabla = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
           onChange={handleChange}
           value={form.info}
         />
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Crear" />
         <input type="reset" value="Limpiar" onClick={handleReset} />
       </form>
     </div>
